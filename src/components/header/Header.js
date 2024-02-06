@@ -1,10 +1,12 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+
 import './Header.scss';
 
 const Header = () => {
   return (
-    <section className= "hero container-fluid">
-      <div className="hero__content container">
+    <Container fluid className= "hero">
+      <Container className="hero__content">
         <div className="hero__subtitle">
         <div className="hero__subtitle__block--left">
           <p className="hero__text">Hi, I am Gus</p>
@@ -20,8 +22,8 @@ const Header = () => {
             <h1 className="hero__header__text--left">SOFTWARE</h1>
             <h1 className="hero__header__text--right">DEVELOPER</h1> 
           </div>
-      </div> 
-    </section>
+      </Container> 
+    </Container>
   );
 };
 
