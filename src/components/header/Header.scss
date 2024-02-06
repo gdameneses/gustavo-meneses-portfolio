@@ -1,0 +1,38 @@
+.hero {
+  height: 48rem;
+  background-color: rgb(255, 230, 230);
+}
+
+.hero__content {
+  position: relative;
+}
+
+.hero__subtitle__block--left{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero__subtitle__block--right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.hero__header {
+  position: relative;
+  top: 256px;
+}
+
+.hero__header h1 {
+  font-size: 64px;
+}
+
+.hero__header--left {
+  
+}
+
+.hero__header--left {
+  
+}
