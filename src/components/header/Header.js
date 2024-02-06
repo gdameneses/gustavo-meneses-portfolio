@@ -9,7 +9,7 @@ const Header = () => {
       <Container className="hero__content">
         <div className="hero__subtitle">
         <div className="hero__subtitle__block--left">
-          <p className="hero__text">Hi, I am Gus</p>
+          <p className="hero__text">Hi, I am Gus!</p>
           <p className="hero__text">Welcome to my portfolio</p>
         </div>
         <div className="hero__subtitle__block--right">
