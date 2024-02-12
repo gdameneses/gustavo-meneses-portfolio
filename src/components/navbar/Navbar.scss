@@ -1,4 +1,50 @@
-.navbarzed {
-    height: 80px;
-    background-color: aquamarine;
+.navbar__container {
+    padding: 4px 0  4px 0;
+}
+
+.navbar__brand {
+  color: #1400FF !important;
+}
+
+.navbar__toggle {
+  border-radius: 0 !important;
+}
+
+.show .navbar-nav .nav-link {
+    padding: 1rem 0 ;
+}
+
+.collapsing .navbar-nav .nav-link {
+    padding: 1rem 0 ;
+}
+
+.navbar__links__item {
+  color:#1400FF !important;
+}
+
+
+@media (min-width: 992px) {
+
+    .navbar__container {
+        position: sticky;
+    }
+
+    .navbar__brand {
+        position: absolute;
+        left: 0;
+    }
+
+    .navbar__links {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .navbar__toggle {
+        position: absolute;
+        right: 1rem;
+    }
+    .navbar-collapse {
+        flex-grow: 0 !important;
+        justify-self: center;
+    }
 }
