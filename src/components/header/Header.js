@@ -22,7 +22,7 @@ const Header = () => {
             <h1 className="hero__header__text--left">SOFTWARE</h1>
             <h1 className="hero__header__text--right">DEVELOPER</h1> 
           </div>
-          <div className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between flex-column flex-md-row">
             <Col xs={12} md={4} className="hero_footer">
               <p>
               A developer is not merely a coder they are architects 
