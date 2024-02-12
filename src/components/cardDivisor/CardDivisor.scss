@@ -1,5 +1,15 @@
+
+.cards__wrapper {
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap !important;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+}
 .divisor__card {
     color: #1400FF !important;
     border: none !important;
-    width: 20rem;
+    padding: 1rem;
 }
