@@ -3,10 +3,6 @@ import Card from 'react-bootstrap/Card';
 import './CardDivisor.scss'
 
 function CardDivisor() {
-    const cardList = [
-        
-    ]
-
     const card = ({title, text}) => {
         return (
             <Card className="divisor__card">
