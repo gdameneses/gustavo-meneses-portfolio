@@ -3,10 +3,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.scss'
 
-function BasicExample() {
+function NavBar() {
   return (
     <Navbar expand="lg" className="navbar">
-      <Container className="navbar__container p-0">
+      <Container fluid="md" className="navbar__container p-0">
         <Navbar.Brand href="#home" className="navbar__brand">Gustavo Meneses</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar__toggle" />
         <Navbar.Collapse id="basic-navbar-nav" className="navbar__links">
@@ -21,4 +21,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default NavBar;
