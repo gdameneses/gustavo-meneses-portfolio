@@ -1,0 +1,54 @@
+.projects__container {
+    overflow: hidden;
+}
+
+.scrollTitle {
+    color: purple;
+    position: relative;
+    left: -15rem;
+    width: 200%;
+    overflow: clip;
+    display: flex;
+    flex: row;
+    flex-wrap: nowrap !important;
+}
+
+.scrollTitle__item {
+    white-space: nowrap;
+}
+.scroll--left {
+    animation: scrollLeft 12s linear infinite;
+}
+
+.scroll--right {
+    animation: scrollRight 10s linear infinite;
+}
+
+.scrollTitle__item span{
+    font-size: 72px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(25deg, #1400FF, #FF00D6);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-flex;   
+    font-size: 32px;
+    margin: 0 1rem;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
